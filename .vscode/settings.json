@@ -1,10 +1,10 @@
 {
     "editor.formatOnSave": true,
     "editor.rulers": [
-        {
-            "color": "lightblue",
-            "column": 79
-        },
+        // {
+        //     "color": "lightblue",
+        //     "column": 79
+        // },
         {
             "color": "lightgreen",
             "column": 99
@@ -18,7 +18,7 @@
     ],
     "[python]": {
         "editor.codeActionsOnSave": {
-            "source.organizeImports": false
+            "source.organizeImports": "never"
         },
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
